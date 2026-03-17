@@ -1,9 +1,9 @@
-# Blog Generation Using Agentic AI
+# 🤖 Blog Generation Using Agentic AI
 - An AI-powered multi-agent system that researches, plans, and writes complete blog posts automatically.
 
 - Built using LangGraph, LangChain, and Streamlit, this project demonstrates how LLM agents can collaborate in a structured workflow to generate high-quality blog content.
 
-# Features
+# ✨ Features
 
 - Agent-based architecture
 - Automated research
@@ -15,12 +15,12 @@
 - Download blog as Markdown
 - Execution logs & workflow tracking
 
-# Architecture
+# 🏛 Architecture
 The system is built as a LangGraph workflow:
 
 ![ Architecture ](/assets/image.png)
 
-# Tech Stack
+# 🛠 Tech Stack
 
 - LLM Orchestration: LangGraph
 - LLM Framework: LangChain
@@ -28,7 +28,7 @@ The system is built as a LangGraph workflow:
 - Research Tool: Tavily
 - Data Handling: Pandas
 
-# How It Works
+# ⚙️ How It Works
 
 - User enters a blog topic.
 - Router agent decides if research is needed.
@@ -38,7 +38,7 @@ The system is built as a LangGraph workflow:
 - Reducer merges sections into a final Markdown blog.
 - Blog is saved locally for future access.
 
-# Running Locally
+# 🚀 Running Locally
 
 ### 1. Clone the repository
 
@@ -67,3 +67,7 @@ TAVILY_API_KEY=your_tavily_key
 ```bash
 streamlit run frontend.py
 ```
+
+#  📜 License
+
+This project is open-source and available under the MIT License.
