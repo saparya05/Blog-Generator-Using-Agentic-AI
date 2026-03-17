@@ -1,4 +1,4 @@
-# 🤖 Blog Generation Using Agentic AI
+# 🤖 Blog Generator Using Agentic AI
 - An AI-powered multi-agent system that researches, plans, and writes complete blog posts automatically.
 
 - Built using LangGraph, LangChain, and Streamlit, this project demonstrates how LLM agents can collaborate in a structured workflow to generate high-quality blog content.
