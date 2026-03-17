@@ -39,3 +39,31 @@ The system is built as a LangGraph workflow:
 - Blog is saved locally for future access.
 
 # Running Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/saparya05/Blog-Generator-Using-Agentic-AI
+cd AI-blog-writing-agent
+```
+
+### 2. Clone the repository
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Add environment variables
+
+Create a .env file in the project root with the following:
+
+```bash
+OPENAI_API_KEY=your_openai_key
+TAVILY_API_KEY=your_tavily_key
+```
+
+### 4. Run the app
+
+```bash
+streamlit run frontend.py
+```
