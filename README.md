@@ -17,6 +17,7 @@
 
 # Architecture
 The system is built as a LangGraph workflow:
+
 ![ Architecture ](/assets/image.png)
 
 # Tech Stack
