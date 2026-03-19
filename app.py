@@ -346,4 +346,4 @@ if out:
             height=520,
         )
 else:
-    st.info("Enter a topic and click **Generate Blog**.")
+    st.info("Enter a topic in the sidebar and click **Generate Blog** to get started.")
